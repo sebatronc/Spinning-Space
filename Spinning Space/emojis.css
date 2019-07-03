@@ -1,0 +1,30 @@
+.emojiButton {
+	content: ("Custom Emoji Buttons By Omega");
+	background-color: #000000; 
+	border: 000000;
+	color: #81c2ff;
+	width: 32px;
+	height: 32px;
+	padding: 2px 2px;
+	text-align: center;
+	text-decoration: 000000;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	cursor: default;
+	background-color: #000000; 
+	color: #81c2ff; 
+	border: 2px solid #81c2ff;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+}
+.emojiButton:hover {
+	border-bottom-left-radius: 15%;
+	border-top-right-radius: 15%;
+	background-color: #000;
+	color: #81c2ff;
+}
